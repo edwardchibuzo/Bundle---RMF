@@ -154,84 +154,76 @@ Bundle operates in a **hybrid environment** consisting of:
 
 ## **STEPS**
 
-### **STEP 1 — SYSTEM OVERVIEW AND BOUNDARY DEFINITION**
-Definition of what Bundle is, who uses it, what data it handles, 
+## STEPS
+
+### STEP 1 — SYSTEM OVERVIEW AND BOUNDARY DEFINITION
+Definition of what Bundle is, who uses it, what data it handles,
 and where the system boundary begins and ends.
 
-*Ref 1: Architecture Diagram*
 ![Architecture Diagram](./diagrams/Architecture_Diagram.png)
 
 ---
 
-### **STEP 2 — SYSTEM CATEGORIZATION**
-Categorize Bundle using FIPS 199 and NIST SP 800-60 based on 
+### STEP 2 — SYSTEM CATEGORIZATION
+Categorize Bundle using FIPS 199 and NIST SP 800-60 based on
 the sensitivity of data handled.
 
-*Ref 2: FIPS 199 Categorization Table*
-![Categorization Table](./diagrams/FIPS199_Table.png)
+[View FIPS 199 Categorization](./docs/02-categorization/FIPS199_Categorization.md)
 
 ---
 
-### **STEP 3 — CONTROL SELECTION**
-Select and tailor security controls from NIST SP 800-53 Rev 5 
+### STEP 3 — CONTROL SELECTION
+Select and tailor security controls from NIST SP 800-53 Rev 5
 based on Bundle's High impact categorization.
 
-*Ref 3: Control Baseline Summary*
-![Control Baseline](./diagrams/Control_Baseline.png)
+[View Control Selection](./docs/03-control-selection/Control_Selection.md)
 
 ---
 
-### **STEP 4 — SYSTEM SECURITY PLAN**
+### STEP 4 — SYSTEM SECURITY PLAN
 Document how each selected control is implemented within Bundle.
 
-*Ref 4: SSP Cover Page*
-![SSP](./diagrams/SSP_Cover.png)
+[View System Security Plan](./docs/04-ssp/System_Security_Plan.md)
 
 ---
 
-### **STEP 5 — RISK ASSESSMENT**
-Identify threats and vulnerabilities specific to a healthcare 
+### STEP 5 — RISK ASSESSMENT
+Identify threats and vulnerabilities specific to a healthcare
 environment and rate them by likelihood and impact.
 
-*Ref 5: Risk Register*
-![Risk Register](./diagrams/Risk_Register.png)
+[View Risk Assessment](./docs/05-risk-assessment/Risk_Assessment.md)
 
 ---
 
-### **STEP 6 — SECURITY ASSESSMENT**
-Develop a SAP and SAR to test whether Bundle's controls 
+### STEP 6 — SECURITY ASSESSMENT
+Develop a SAP and SAR to test whether Bundle's controls
 are working as intended.
 
-*Ref 6: SAR Findings Summary*
-![SAR](./diagrams/SAR_Findings.png)
+[View Security Assessment](./docs/06-security-assessment/Security_Assessment.md)
 
 ---
 
-### **STEP 7 — POA&M**
-Track all findings and weaknesses with remediation plans 
+### STEP 7 — POA&M
+Track all findings and weaknesses with remediation plans
 and target completion dates.
 
-*Ref 7: POA&M Tracker*
-![POAM](./diagrams/POAM_Tracker.png)
+[View POA&M](./docs/07-poam/POAM.md)
 
 ---
 
-### **STEP 8 — AUTHORIZATION**
-Compile the full ATO package and make an authorization 
+### STEP 8 — AUTHORIZATION
+Compile the full ATO package and make an authorization
 recommendation based on Bundle's risk posture.
 
-*Ref 8: Authorization Recommendation*
-![ATO](./diagrams/ATO_Recommendation.png)
+[View ATO Memo](./docs/08-authorization/ATO_Memo.md)
 
 ---
 
-### **STEP 9 — CONTINUOUS MONITORING**
-Document how Bundle will be monitored on an ongoing basis 
+### STEP 9 — CONTINUOUS MONITORING
+Document how Bundle will be monitored on an ongoing basis
 after authorization.
 
-*Ref 9: Continuous Monitoring Schedule*
-![ConMon](./diagrams/ConMon_Schedule.png)
-
+[View Continuous Monitoring](./docs/09-continuous-monitoring/Continuous_Monitoring.md)
 ---
 
 ## **KEY ASSUMPTIONS**
