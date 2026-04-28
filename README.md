@@ -162,6 +162,7 @@ and where the system boundary begins and ends.
 
 ![Architecture Diagram](./diagrams/Architecture_Diagram.png)
 
+![Data Flow Diagram](./diagrams/Data_Flow_Diagram.png)
 ---
 
 ### STEP 2 — SYSTEM CATEGORIZATION
