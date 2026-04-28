@@ -159,7 +159,7 @@ Definition of what Bundle is, who uses it, what data it handles,
 and where the system boundary begins and ends.
 
 *Ref 1: Architecture Diagram*
-[![Architecture Diagram](./diagrams/Architecture_Diagram.png)
+![Architecture Diagram](./diagrams/Architecture_Diagram.png)
 
 ---
 
