@@ -3,7 +3,7 @@ A simulated NIST RMF portfolio project for Bundle, a fictional  Electronic Healt
 
 # PROJECT NAME
 
-# 🏥 BUNDLE — ELECTRONIC HEALTHCARE MANAGEMENT SYSTEM
+# BUNDLE — ELECTRONIC HEALTHCARE MANAGEMENT SYSTEM
 **Document Type:** System Overview
 **System Name:** Bundle
 **Version:** 1.0
